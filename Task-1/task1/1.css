@@ -566,5 +566,83 @@ body {
 
 .header .navbar a:hover{
   color:#DDBEAA;
+}@media screen and (max-width:880px) {
+  .contact-form{
+    grid-template-columns: 1fr;
+  }
+  .btn-c{
+    width: 95px;
+    height: 55px;
+    padding-bottom: 3rem;
+    padding-top: -12rem;
+    margin-left: -15rem;
+  }
+  .reviews .slide{
+    width: 370px;
+    margin-left: 35px;
+    height: 34rem;
+  }
+  .about-us-container{
+    width: 400px;
+    margin-left: 20px;
+   
+    height: 35rem;
+  }
+  .about-us{
+    height: 450px;
+    margin-top: 120px;
+  }
+  .heading-about{
+    font-size: 30px;
+  }
+  .heading-about::after{
+    bottom: -362px;
+    left: 59px;
+  }
+  .para-about{
+    font-size: 18px;
+    line-height: 22px;
+    margin-right: 170px;
+  }
+  .img-about{
+    margin-right: -70px;
+    margin-top: 3rem;
+  }
+  .link-about{
+    height: 40px;
+    margin-left: -20px;
+    top: 15px;
+  }
+  .c-container{
+    height: 1430px;
+  }
+  .c-container .box{
+    margin-top: 2rem;
+  }
+  #loadMore{
+    margin-top: -3.5rem; 
 }
+#loadMore a{
+  height: 45px;
+  font-size: 20px;
+}
+
+.main h1{
+  font-size: 45px;
+  margin-left: -32px;
+  padding-top: 14rem;
+}
+.btn1{
+  height: 45px;
+  width: 190px;
+  left: 8rem;
+  margin-top: 1rem;
+}
+.container img{
+  width: 300px;
+  margin-left: 10rem;
+}
+
+}
+
 
